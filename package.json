@@ -1,0 +1,26 @@
+{
+  "name": "y2b_backend",
+  "version": "1.0.0",
+  "description": "A simple MERN stack based youtube clone.",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanMiranda98/Y2B-backend.git"
+  },
+  "author": "Ryan Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanMiranda98/Y2B-backend/issues"
+  },
+  "homepage": "https://github.com/ryanMiranda98/Y2B-backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0"
+  }
+}
